@@ -1,0 +1,11 @@
+/*1. p{
+    font-size: 16px;
+} */
+ .p{
+    background-color: yellow;
+    border-color: red;
+    border-radius: 7px;
+ }
+ .required{
+    border: rebeccapurple;
+ }
