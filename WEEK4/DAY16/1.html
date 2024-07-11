@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var str = "we347ls";
+        str = str.replace(/[^0-9]/g, "");
+        var sum = 0;
+        for (let i = 0; i < str.length; i++) {
+          sum = sum + parseInt(str.charAt(i));
+        }
+        console.log(sum);
+      </script>
+  
+    
+</body>
+</html>
